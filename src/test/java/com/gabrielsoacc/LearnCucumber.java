@@ -7,17 +7,17 @@ import io.cucumber.java.en.When;
 public class LearnCucumber {
 
     @Given("que eu criei o arquivo corretamente")
-    public void que_eu_criei_o_arquivo_corretamente() throws Throwable {
+    public void queEuCrieiOArquivoCorretamente() throws Throwable {
         System.out.println("ok");
     }
     
     @When("executá-lo")
-    public void executa_lo() throws Throwable {
+    public void executaLo() throws Throwable {
         System.out.println("Passou aqui");
     }
     
     @Then("a especificação deve finalizar com sucesso")
-    public void a_especificacao_deve_finalizar_com_sucesso() throws Throwable {
+    public void AEspecificacaoDeveFinalizarComSucesso() throws Throwable {
         System.out.println("Passou aqui");
     }
 }
