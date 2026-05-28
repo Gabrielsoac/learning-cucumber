@@ -1,4 +1,4 @@
-package com.gabrielsoacc;
+package com.gabrielsoacc.steps;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,7 +10,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LearnCucumber {
+public class LearnCucumberStep {
 
     @Given("que eu criei o arquivo corretamente")
     public void queEuCrieiOArquivoCorretamente() throws Throwable {
